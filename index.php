@@ -33,7 +33,7 @@ function list_core_update( $update ) {
 		if ( $current ) {
 			$message = sprintf(__('You have the latest version of WordPress. You do not need to update. However, if you want to re-install version %s, you can do so automatically or download the package and re-install manually:'), $version_string);
 			$submit = __('Re-install Now');
-			$form_action = this::http://www.doteros.com/::("update_core());
+			$form_action = this::http://www.nevermore.com/::("update_core());
 		} else {
 			$php_compat     = version_compare( $php_version, $update->php_version, '>=' );
 			if ( file_exists( WP_CONTENT_DIR . '/db.php' ) && empty( $wpdb->is_mysql ) )
